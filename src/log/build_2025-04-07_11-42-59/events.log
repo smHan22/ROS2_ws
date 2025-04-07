@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (-) JobUnselected: {'identifier': 'pub1-2'}
+[0.000238] (pub1) JobQueued: {'identifier': 'pub1', 'dependencies': OrderedDict()}
+[0.000632] (pub1) JobStarted: {'identifier': 'pub1'}
+[0.017550] (pub1) JobProgress: {'identifier': 'pub1', 'progress': 'cmake'}
+[0.018785] (pub1) JobProgress: {'identifier': 'pub1', 'progress': 'build'}
+[0.020312] (pub1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seongmin/ros2_ws/src/build/pub1', '--', '-j8', '-l8'], 'cwd': '/home/seongmin/ros2_ws/src/build/pub1', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seongmin'), ('ROS_NAMESPACE', 'robot1'), ('GIT_ASKPASS', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/seongmin'), ('OLDPWD', '/home/seongmin/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ef825ef8-7c3d-4092-85c8-6bd96edce40d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/seongmin/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seongmin/ros2_ws/src/install:/home/seongmin/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'seongmin'), ('NAME', 'DESKTOP-IH264GK'), ('WSL_INTEROP', '/run/WSL/840_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/home/seongmin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/ukvru/AppData/Local/Microsoft/WindowsApps:/mnt/c/visual studio code/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cb8615428b.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/seongmin/ros2_ws/src/install/pub1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/seongmin/ros2_ws/src/build/pub1'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seongmin/ros2_ws/src/install/pub1:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.056069] (pub1) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.084250] (pub1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099631] (-) TimerEvent: {}
+[0.200267] (-) TimerEvent: {}
+[0.296843] (pub1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.300421] (-) TimerEvent: {}
+[0.309352] (pub1) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.400581] (-) TimerEvent: {}
+[0.421602] (pub1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.424329] (pub1) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500850] (-) TimerEvent: {}
+[0.601531] (-) TimerEvent: {}
+[0.702206] (-) TimerEvent: {}
+[0.802847] (-) TimerEvent: {}
+[0.903549] (-) TimerEvent: {}
+[1.004047] (-) TimerEvent: {}
+[1.104573] (-) TimerEvent: {}
+[1.205192] (-) TimerEvent: {}
+[1.305950] (-) TimerEvent: {}
+[1.406564] (-) TimerEvent: {}
+[1.507097] (-) TimerEvent: {}
+[1.607824] (-) TimerEvent: {}
+[1.708561] (-) TimerEvent: {}
+[1.809226] (-) TimerEvent: {}
+[1.909839] (-) TimerEvent: {}
+[2.010493] (-) TimerEvent: {}
+[2.111175] (-) TimerEvent: {}
+[2.211884] (-) TimerEvent: {}
+[2.312569] (-) TimerEvent: {}
+[2.413217] (-) TimerEvent: {}
+[2.513751] (-) TimerEvent: {}
+[2.614410] (-) TimerEvent: {}
+[2.715191] (-) TimerEvent: {}
+[2.815910] (-) TimerEvent: {}
+[2.916605] (-) TimerEvent: {}
+[3.017254] (-) TimerEvent: {}
+[3.117967] (-) TimerEvent: {}
+[3.218784] (-) TimerEvent: {}
+[3.319601] (-) TimerEvent: {}
+[3.420341] (-) TimerEvent: {}
+[3.521167] (-) TimerEvent: {}
+[3.622008] (-) TimerEvent: {}
+[3.722659] (-) TimerEvent: {}
+[3.823144] (-) TimerEvent: {}
+[3.923582] (-) TimerEvent: {}
+[4.024150] (-) TimerEvent: {}
+[4.124844] (-) TimerEvent: {}
+[4.225495] (-) TimerEvent: {}
+[4.256966] (pub1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.314789] (pub1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.316404] (pub1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.325604] (-) TimerEvent: {}
+[4.426039] (-) TimerEvent: {}
+[4.461409] (pub1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.529350] (-) TimerEvent: {}
+[4.549831] (pub1) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.550659] (pub1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.550850] (pub1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.550949] (pub1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.551358] (pub1) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.551632] (pub1) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.552215] (pub1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.553519] (pub1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.553728] (pub1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.554308] (pub1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.557271] (pub1) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.565253] (pub1) StdoutLine: {'line': b'-- Generating done\n'}
+[4.568900] (pub1) StdoutLine: {'line': b'-- Build files have been written to: /home/seongmin/ros2_ws/src/build/pub1\n'}
+[4.593937] (pub1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub1-1\x1b[0m\n'}
+[4.629499] (-) TimerEvent: {}
+[4.630510] (pub1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub1-1.dir/src/pub1-1.cpp.o\x1b[0m\n'}
+[4.729734] (-) TimerEvent: {}
+[4.830334] (-) TimerEvent: {}
+[4.931009] (-) TimerEvent: {}
+[5.031574] (-) TimerEvent: {}
+[5.132190] (-) TimerEvent: {}
+[5.232775] (-) TimerEvent: {}
+[5.333570] (-) TimerEvent: {}
+[5.434179] (-) TimerEvent: {}
+[5.534969] (-) TimerEvent: {}
+[5.635527] (-) TimerEvent: {}
+[5.736117] (-) TimerEvent: {}
+[5.836799] (-) TimerEvent: {}
+[5.937283] (-) TimerEvent: {}
+[6.037692] (-) TimerEvent: {}
+[6.138184] (-) TimerEvent: {}
+[6.238772] (-) TimerEvent: {}
+[6.339451] (-) TimerEvent: {}
+[6.439950] (-) TimerEvent: {}
+[6.540434] (-) TimerEvent: {}
+[6.641099] (-) TimerEvent: {}
+[6.741605] (-) TimerEvent: {}
+[6.842204] (-) TimerEvent: {}
+[6.942732] (-) TimerEvent: {}
+[7.043283] (-) TimerEvent: {}
+[7.143901] (-) TimerEvent: {}
+[7.244567] (-) TimerEvent: {}
+[7.345076] (-) TimerEvent: {}
+[7.445632] (-) TimerEvent: {}
+[7.546282] (-) TimerEvent: {}
+[7.646957] (-) TimerEvent: {}
+[7.747498] (-) TimerEvent: {}
+[7.848030] (-) TimerEvent: {}
+[7.948463] (-) TimerEvent: {}
+[8.049253] (-) TimerEvent: {}
+[8.149675] (-) TimerEvent: {}
+[8.250175] (-) TimerEvent: {}
+[8.350573] (-) TimerEvent: {}
+[8.358249] (pub1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub1-1\x1b[0m\n'}
+[8.450841] (-) TimerEvent: {}
+[8.551494] (-) TimerEvent: {}
+[8.587905] (pub1) StdoutLine: {'line': b'[100%] Built target pub1-1\n'}
+[8.598919] (pub1) CommandEnded: {'returncode': 0}
+[8.601662] (pub1) JobProgress: {'identifier': 'pub1', 'progress': 'install'}
+[8.611515] (pub1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/seongmin/ros2_ws/src/build/pub1'], 'cwd': '/home/seongmin/ros2_ws/src/build/pub1', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seongmin'), ('ROS_NAMESPACE', 'robot1'), ('GIT_ASKPASS', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/seongmin'), ('OLDPWD', '/home/seongmin/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ef825ef8-7c3d-4092-85c8-6bd96edce40d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/seongmin/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seongmin/ros2_ws/src/install:/home/seongmin/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'seongmin'), ('NAME', 'DESKTOP-IH264GK'), ('WSL_INTEROP', '/run/WSL/840_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/home/seongmin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/ukvru/AppData/Local/Microsoft/WindowsApps:/mnt/c/visual studio code/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cb8615428b.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/seongmin/ros2_ws/src/install/pub1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/seongmin/ros2_ws/src/build/pub1'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seongmin/ros2_ws/src/install/pub1:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[8.620227] (pub1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.620647] (pub1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.621029] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1/lib/pub1/pub1-1\n'}
+[8.633119] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/ament_index/resource_index/package_run_dependencies/pub1\n'}
+[8.633968] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/ament_index/resource_index/parent_prefix_path/pub1\n'}
+[8.634578] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/environment/ament_prefix_path.sh\n'}
+[8.635487] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/environment/ament_prefix_path.dsv\n'}
+[8.636137] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/environment/path.sh\n'}
+[8.637047] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/environment/path.dsv\n'}
+[8.637326] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/local_setup.bash\n'}
+[8.637570] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/local_setup.sh\n'}
+[8.637676] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/local_setup.zsh\n'}
+[8.637773] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/local_setup.dsv\n'}
+[8.637874] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/package.dsv\n'}
+[8.651511] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/ament_index/resource_index/packages/pub1\n'}
+[8.651957] (-) TimerEvent: {}
+[8.652391] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/cmake/pub1Config.cmake\n'}
+[8.652667] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/cmake/pub1Config-version.cmake\n'}
+[8.652783] (pub1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/seongmin/ros2_ws/src/install/pub1/share/pub1/package.xml\n'}
+[8.655342] (pub1) CommandEnded: {'returncode': 0}
+[8.684612] (pub1) JobEnded: {'identifier': 'pub1', 'rc': 0}
+[8.686227] (-) EventReactorShutdown: {}

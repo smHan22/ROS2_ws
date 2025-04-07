@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target pub1-3[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub1-3.dir/src/pub1-3.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pub1-3[0m
+[100%] Built target pub1-3
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/lib/pub1-3/pub1-3
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/ament_index/resource_index/package_run_dependencies/pub1-3
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/ament_index/resource_index/parent_prefix_path/pub1-3
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/environment/ament_prefix_path.sh
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/environment/ament_prefix_path.dsv
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/environment/path.sh
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/environment/path.dsv
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/local_setup.bash
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/local_setup.sh
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/local_setup.zsh
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/local_setup.dsv
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/package.dsv
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/ament_index/resource_index/packages/pub1-3
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/cmake/pub1-3Config.cmake
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/cmake/pub1-3Config-version.cmake
+-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/package.xml

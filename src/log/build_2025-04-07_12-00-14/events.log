@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000410] (-) JobUnselected: {'identifier': 'pub1'}
+[0.001034] (-) JobUnselected: {'identifier': 'pub1-2'}
+[0.001100] (pub1-3) JobQueued: {'identifier': 'pub1-3', 'dependencies': OrderedDict()}
+[0.001156] (pub1-3) JobStarted: {'identifier': 'pub1-3'}
+[0.016537] (pub1-3) JobProgress: {'identifier': 'pub1-3', 'progress': 'cmake'}
+[0.019182] (pub1-3) JobProgress: {'identifier': 'pub1-3', 'progress': 'build'}
+[0.019504] (pub1-3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seongmin/ros2_ws/src/build/pub1-3', '--', '-j8', '-l8'], 'cwd': '/home/seongmin/ros2_ws/src/build/pub1-3', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seongmin'), ('ROS_NAMESPACE', 'robot1'), ('GIT_ASKPASS', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/seongmin'), ('OLDPWD', '/home/seongmin/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4c368319-f689-44af-8611-c6e791081d34.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/seongmin/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seongmin/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'seongmin'), ('NAME', 'DESKTOP-IH264GK'), ('WSL_INTEROP', '/run/WSL/840_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/home/seongmin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/ukvru/AppData/Local/Microsoft/WindowsApps:/mnt/c/visual studio code/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cb8615428b.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/seongmin/ros2_ws/install/pub1-3:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/seongmin/ros2_ws/src/build/pub1-3'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seongmin/ros2_ws/install/pub1-3:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.068982] (pub1-3) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub1-3\x1b[0m\n'}
+[0.093173] (pub1-3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub1-3.dir/src/pub1-3.cpp.o\x1b[0m\n'}
+[0.099606] (-) TimerEvent: {}
+[0.200045] (-) TimerEvent: {}
+[0.300563] (-) TimerEvent: {}
+[0.401040] (-) TimerEvent: {}
+[0.501572] (-) TimerEvent: {}
+[0.602138] (-) TimerEvent: {}
+[0.702976] (-) TimerEvent: {}
+[0.803501] (-) TimerEvent: {}
+[0.903961] (-) TimerEvent: {}
+[1.004471] (-) TimerEvent: {}
+[1.105011] (-) TimerEvent: {}
+[1.205564] (-) TimerEvent: {}
+[1.306106] (-) TimerEvent: {}
+[1.406837] (-) TimerEvent: {}
+[1.507737] (-) TimerEvent: {}
+[1.608266] (-) TimerEvent: {}
+[1.708716] (-) TimerEvent: {}
+[1.809155] (-) TimerEvent: {}
+[1.909800] (-) TimerEvent: {}
+[2.010362] (-) TimerEvent: {}
+[2.110828] (-) TimerEvent: {}
+[2.211313] (-) TimerEvent: {}
+[2.312039] (-) TimerEvent: {}
+[2.412784] (-) TimerEvent: {}
+[2.513517] (-) TimerEvent: {}
+[2.614137] (-) TimerEvent: {}
+[2.714707] (-) TimerEvent: {}
+[2.815396] (-) TimerEvent: {}
+[2.916189] (-) TimerEvent: {}
+[3.016808] (-) TimerEvent: {}
+[3.117281] (-) TimerEvent: {}
+[3.218061] (-) TimerEvent: {}
+[3.319161] (-) TimerEvent: {}
+[3.419722] (-) TimerEvent: {}
+[3.520323] (-) TimerEvent: {}
+[3.620996] (-) TimerEvent: {}
+[3.721578] (-) TimerEvent: {}
+[3.822138] (-) TimerEvent: {}
+[3.922718] (-) TimerEvent: {}
+[4.023315] (-) TimerEvent: {}
+[4.123868] (-) TimerEvent: {}
+[4.224603] (-) TimerEvent: {}
+[4.325382] (-) TimerEvent: {}
+[4.425861] (-) TimerEvent: {}
+[4.526296] (-) TimerEvent: {}
+[4.626718] (-) TimerEvent: {}
+[4.689538] (pub1-3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub1-3\x1b[0m\n'}
+[4.726950] (-) TimerEvent: {}
+[4.827425] (-) TimerEvent: {}
+[4.903284] (pub1-3) StdoutLine: {'line': b'[100%] Built target pub1-3\n'}
+[4.920122] (pub1-3) CommandEnded: {'returncode': 0}
+[4.923021] (pub1-3) JobProgress: {'identifier': 'pub1-3', 'progress': 'install'}
+[4.927673] (-) TimerEvent: {}
+[4.933861] (pub1-3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/seongmin/ros2_ws/src/build/pub1-3'], 'cwd': '/home/seongmin/ros2_ws/src/build/pub1-3', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seongmin'), ('ROS_NAMESPACE', 'robot1'), ('GIT_ASKPASS', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/seongmin'), ('OLDPWD', '/home/seongmin/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4c368319-f689-44af-8611-c6e791081d34.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/seongmin/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seongmin/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'seongmin'), ('NAME', 'DESKTOP-IH264GK'), ('WSL_INTEROP', '/run/WSL/840_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seongmin/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/home/seongmin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/ukvru/AppData/Local/Microsoft/WindowsApps:/mnt/c/visual studio code/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cb8615428b.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/seongmin/ros2_ws/install/pub1-3:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/seongmin/ros2_ws/src/build/pub1-3'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seongmin/ros2_ws/install/pub1-3:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[4.943765] (pub1-3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.944194] (pub1-3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.944968] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/lib/pub1-3/pub1-3\n'}
+[4.957560] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/ament_index/resource_index/package_run_dependencies/pub1-3\n'}
+[4.968389] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/ament_index/resource_index/parent_prefix_path/pub1-3\n'}
+[4.977949] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/environment/ament_prefix_path.sh\n'}
+[4.986368] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/environment/ament_prefix_path.dsv\n'}
+[4.996568] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/environment/path.sh\n'}
+[5.005237] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/environment/path.dsv\n'}
+[5.014031] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/local_setup.bash\n'}
+[5.022244] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/local_setup.sh\n'}
+[5.027868] (-) TimerEvent: {}
+[5.030779] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/local_setup.zsh\n'}
+[5.042386] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/local_setup.dsv\n'}
+[5.051062] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/package.dsv\n'}
+[5.062000] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/ament_index/resource_index/packages/pub1-3\n'}
+[5.071158] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/cmake/pub1-3Config.cmake\n'}
+[5.084866] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/cmake/pub1-3Config-version.cmake\n'}
+[5.097466] (pub1-3) StdoutLine: {'line': b'-- Symlinking: /home/seongmin/ros2_ws/src/install/pub1-3/share/pub1-3/package.xml\n'}
+[5.111767] (pub1-3) CommandEnded: {'returncode': 0}
+[5.128602] (-) TimerEvent: {}
+[5.140813] (pub1-3) JobEnded: {'identifier': 'pub1-3', 'rc': 0}
+[5.142202] (-) EventReactorShutdown: {}

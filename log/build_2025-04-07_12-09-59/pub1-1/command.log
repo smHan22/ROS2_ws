@@ -1,6 +1,0 @@
-Invoking command in '/home/seongmin/ros2_ws/build/pub1-1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/seongmin/ros2_ws/src/pub1-1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seongmin/ros2_ws/install/pub1-1
-Invoked command in '/home/seongmin/ros2_ws/build/pub1-1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/seongmin/ros2_ws/src/pub1-1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seongmin/ros2_ws/install/pub1-1
-Invoking command in '/home/seongmin/ros2_ws/build/pub1-1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/seongmin/ros2_ws/build/pub1-1 -- -j8 -l8
-Invoked command in '/home/seongmin/ros2_ws/build/pub1-1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/seongmin/ros2_ws/build/pub1-1 -- -j8 -l8
-Invoking command in '/home/seongmin/ros2_ws/build/pub1-1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/seongmin/ros2_ws/build/pub1-1
-Invoked command in '/home/seongmin/ros2_ws/build/pub1-1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/seongmin/ros2_ws/build/pub1-1

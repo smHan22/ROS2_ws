@@ -1,4 +1,0 @@
-Invoking command in '/home/seongmin/ros2_ws/src/build/pub1-3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/seongmin/ros2_ws/src/build/pub1-3 -- -j8 -l8
-Invoked command in '/home/seongmin/ros2_ws/src/build/pub1-3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/seongmin/ros2_ws/src/build/pub1-3 -- -j8 -l8
-Invoking command in '/home/seongmin/ros2_ws/src/build/pub1-3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/seongmin/ros2_ws/src/build/pub1-3
-Invoked command in '/home/seongmin/ros2_ws/src/build/pub1-3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/seongmin/ros2_ws/src/build/pub1-3
